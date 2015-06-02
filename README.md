@@ -15,7 +15,7 @@ format JSON.
 
 ## Motivation
 
-Project de final de curs de Desenvolupament de Aplicacions Mulitimedia, on es possen a proba els
+Project de final de curs de Desenvolupament de Aplicacions Mulitimedia, on es possen a prova els
 coneixements adquirits durant el curs.
 
 ## Installation
