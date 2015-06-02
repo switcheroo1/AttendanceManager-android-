@@ -25,6 +25,8 @@ podrem instal-lar l'aplicació al nostre terminal movil, aixo generara una APK p
 
 https://github.com/switcheroo1/AttendanceManager-android-/blob/master/Atm/bin/Atm.apk
 
+![alt tag](https://github.com/switcheroo1/AttendanceManager-android-/blob/master/Atm/docs/qrplanet.png)
+
 ## API Reference
 
 Android 4.4.2 Andorid Open Source Project 4.4.2 API level 19
