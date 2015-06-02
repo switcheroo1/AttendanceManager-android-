@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="listArrayPreferencesOnClick">
+	    <item>@string/preferences_ciclic</item>
+	    <item>@string/preferences_only_miss</item>
+	</string-array>
+	
+	<string-array name="listValuesPreferencesOnClick">
+	    <item>1</item>
+	    <item>2</item>
+</string-array>
+</resources>

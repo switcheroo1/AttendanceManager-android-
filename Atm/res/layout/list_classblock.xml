@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginBottom="8dp">
+  
+  <CheckBox android:id="@+id/classblock_item_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_alignParentRight="true"
+    android:enabled="false"
+    android:focusable="false"
+    android:padding="4dp" />
+  <TextView android:id="@+id/classblock_item_start"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toLeftOf="@id/classblock_item_list"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:text="00:00" />
+  <TextView android:id="@+id/classblock_item_name_term"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toLeftOf="@id/classblock_item_list"
+    android:textStyle="bold"
+    android:paddingLeft="50dp"
+    android:paddingRight="4dp"
+    android:text="Subject" />
+  <TextView android:id="@+id/classblock_item_end"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/classblock_item_start"
+    android:layout_toLeftOf="@+id/classblock_item_list"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp"
+    android:text="01:00" />
+  <TextView android:id="@+id/classblock_item_name_subject"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toLeftOf="@id/classblock_item_list"
+    android:layout_below="@id/classblock_item_name_term"
+    android:textStyle="italic"
+    android:paddingLeft="50dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="16dp"
+    android:text="Term" />
+  
+</RelativeLayout>

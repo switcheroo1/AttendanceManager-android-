@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+  
+  <ImageView android:id="@+id/student_item_miss"
+    android:gravity="center"
+    android:layout_alignParentRight="true"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:scaleType="centerInside"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="4dp"
+    android:background="@drawable/m1_not_miss" 
+    android:cropToPadding="true"/>
+  
+  <ImageView android:id="@+id/student_item_material"
+    android:gravity="center"
+    android:layout_alignParentRight="true"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:scaleType="centerInside"
+    android:layout_marginRight="50dp"
+    android:layout_centerVertical="true"
+    android:background="@drawable/not_work" 
+    android:cropToPadding="true"/>
+  
+
+  <TextView
+      android:id="@+id/student_item_fullname"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_toLeftOf="@+id/student_item_miss"
+      android:paddingBottom="25dp"
+      android:paddingLeft="4dp"
+      android:paddingRight="4dp"
+      android:paddingTop="25dp"
+      android:layout_marginRight="80dp"
+      android:text="Fullname"
+      android:textSize="20dp" />
+  
+ </RelativeLayout>

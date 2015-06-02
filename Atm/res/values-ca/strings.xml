@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AttendanceManager</string>
+    <string name="action_settings">Preferencies</string>
+    <string name="action_checklist">Llista</string>
+    <string name="login_txt">Connectar</string>
+    <string name="login_error">Error de connexió</string>
+    <string name="dialog_login_user">Usuari</string>
+    <string name="dialog_login_pass">Contrasenya</string>
+    <string name="dialog_login_title">Connectar</string>
+    <string name="dialog_date_title">Entra Data</string>
+    <string name="title_activity_preferences">Preferencies</string>
+    <string name="title_activity_class">Classes</string>
+    <string name="title_activity_students">Alumnes</string>
+    <string name="preferences_user_title">Usuari</string>
+    <string name="classblocklist_data">Data</string>
+    <string name="classblocklist_classes">Classes</string>
+    <string name="studentlist_students">Alumnes</string>
+    
+    <string name="student_item_no_fault">Sense falta</string>   
+    <string name="student_item_miss">Falta</string>
+    <string name="student_item_excused_miss">Justificada</string>
+    <string name="student_item_delay">Retard</string>
+    <string name="student_item_expulsion">Expulsió</string>
+    <string name="student_item_material_on">Treure sense deures</string>  
+    <string name="student_item_material_off">Afegir sense deures</string>
+    
+    <string name="preferences_saveUser_title">Guarda Usuari</string>
+    <string name="preferences_saveUser_summary">Connecta automàticament sense demanar validació</string>
+    <string name="preferences_onClickStudent_title">Comportament onClick</string>
+    <string name="preferences_onClickStudent_summary">Selecciona el comportament onClick en els alumnes</string>
+    <string name="preferences_urlServer_title">URL de conexió</string>
+    <string name="preferences_urlServer_summary">Indica el servidor de connexió de ATM</string>
+    <string name="preferences_schoolName_title">Nom de la Escola</string>
+    <string name="preferences_schoolName_summary">Indica el nom de la Escola</string>
+    
+    <string name="preferences_ciclic">Cíclic</string>
+    <string name="preferences_only_miss">Només falta</string>
+    
+    <string name="classblock_contextual_header">Copiar Faltes</string>
+    <string name="classblock_contextual_copy">Classe de les </string>
+</resources>

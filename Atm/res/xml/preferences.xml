@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <CheckBoxPreference android:title="@string/preferences_saveUser_title"
+                      android:defaultValue="false"
+                      android:summary="@string/preferences_saveUser_summary"
+                      android:key="saveUser" />
+  <ListPreference     android:title="@string/preferences_onClickStudent_title"
+                      android:summary="@string/preferences_onClickStudent_summary"
+                      android:key="onClickStudent"
+                      android:defaultValue="1"
+                      android:entries="@array/listArrayPreferencesOnClick"
+                      android:entryValues="@array/listValuesPreferencesOnClick" />
+  <EditTextPreference android:title="@string/preferences_urlServer_title"
+                      android:key="urlServer"
+                      android:summary="@string/preferences_urlServer_summary" />
+  <EditTextPreference android:title="@string/preferences_schoolName_title"
+                      android:key="schoolName"
+                      android:summary="@string/preferences_schoolName_summary" />
+</PreferenceScreen>

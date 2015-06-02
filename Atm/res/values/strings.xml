@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AttendanceManager</string>
+    <string name="action_settings">Preferences</string>
+    <string name="action_checklist">List</string>
+    <string name="login_txt">Login</string>
+    <string name="login_error">Connection Error</string>
+    <string name="dialog_login_user">User</string>
+    <string name="dialog_login_pass">Password</string>
+    <string name="dialog_login_title">Login</string>
+    <string name="dialog_date_title">Intro Date</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="title_activity_class">Classes</string>
+    <string name="title_activity_students">Students</string>
+    <string name="preferences_user_title">User</string>
+    <string name="classblocklist_data">Date</string>
+    <string name="classblocklist_classes">Classes</string>
+    <string name="studentlist_students">Students</string>
+    
+    <string name="student_item_no_fault">Not Miss</string>   
+    <string name="student_item_miss">Miss</string>
+    <string name="student_item_excused_miss">Justified</string>
+    <string name="student_item_delay">Delay</string>
+    <string name="student_item_expulsion">Expulsion</string>
+    <string name="student_item_material_on">Remove not Work</string>  
+    <string name="student_item_material_off">Add not Work</string>
+    
+    <string name="preferences_saveUser_title">Save User</string>
+    <string name="preferences_saveUser_summary">Connects automatically whithout asking user</string>
+    <string name="preferences_onClickStudent_title">onClick behavior</string>
+    <string name="preferences_onClickStudent_summary">Select onClick behavior on students</string>
+    <string name="preferences_urlServer_title">Connection URL</string>
+    <string name="preferences_urlServer_summary">Indicate the ATM connection server</string>
+    <string name="preferences_schoolName_title">Name of school</string>
+    <string name="preferences_schoolName_summary">Indicate the name of school</string>
+    
+    <string name="preferences_ciclic">Cyclic</string>
+    <string name="preferences_only_miss">Only Miss</string>
+    
+    <string name="classblock_contextual_header">Copy Misses</string>
+    <string name="classblock_contextual_copy">Class of </string>
+    
+</resources>
