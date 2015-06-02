@@ -15,13 +15,16 @@ format JSON.
 
 ## Motivation
 
-Project de final de curs de Desenvolupament de Aplicacions Mulitimedia, on es possen a proba els
+Project de final de curs de Desenvolupament de Aplicacions Mulitimedia, on es possen a prova els
 coneixements adquirits durant el curs.
 
 ## Installation
 
 Per fer la instalació haurem de clonar aquest repositori, i util-litzar Eclipse IDE, un cop fet aixó
 podrem instal-lar l'aplicació al nostre terminal movil, aixo generara una APK per la seva distribució.
+
+https://github.com/switcheroo1/AttendanceManager-android-/blob/master/Atm/bin/Atm.apk
+
 ## API Reference
 
 Android 4.4.2 Andorid Open Source Project 4.4.2 API level 19
