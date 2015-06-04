@@ -20,6 +20,11 @@
 
 package com.iespuig.attendancemanager;
 
+import java.io.IOException;
+
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+
 import com.iespuig.attendancemanager.R;
 
 import android.app.Activity;
@@ -28,6 +33,7 @@ import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.XmlResourceParser;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -117,7 +123,47 @@ public class AtmFragment extends Fragment {
     setHasOptionsMenu(true);
     mSavedUser = new SavedUser();
     
+    SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getActivity());
+    if (SP.getString("urlServer", "").isEmpty()) {
+      checkDeploymentValues();
+    }
   }
+    
+  private void checkDeploymentValues()  {
+    XmlResourceParser xpp = getActivity().getResources().getXml(R.xml.deployment);
+    String deploymentURL = "";
+    String deploymentSchool = "";
+      
+    try {
+      xpp.next();
+      int eventType = xpp.getEventType();
+      
+      while (eventType != XmlPullParser.END_DOCUMENT) {
+        if (eventType == XmlResourceParser.START_TAG) {
+          String s = xpp.getName();
+          if (s.equals("deployment_url")) {
+            eventType = xpp.next();
+            deploymentURL=xpp.getText();
+          }
+          if (s.equals("deployment_school")) {
+            eventType = xpp.next();
+            deploymentSchool=xpp.getText();
+          }
+        }
+        eventType = xpp.next();
+      }
+    } catch (XmlPullParserException e) {
+      e.printStackTrace();
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+    
+    SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getActivity());
+    SharedPreferences.Editor editor = SP.edit();
+    editor.putString("urlServer", deploymentURL);
+    editor.putString("schoolName", deploymentSchool);
+    editor.commit();
+  }  
   
   @Override
   public void onResume() {
