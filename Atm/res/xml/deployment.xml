@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+    <deployment_url>http://192.168.1.130:8080/AMServlet</deployment_url>
+    <deployment_school>newplantada</deployment_school>
+</deployment>
