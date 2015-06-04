@@ -20,13 +20,13 @@ coneixements adquirits durant el curs.
 
 ## Installation
 
-Per fer la instalació del Servlet, haurem de tenir instalada una versio de AttendanceManager proporcionada
-previament i la base de dades, per a que el servlet ens reconegui la base de dades, em de fer algun petit camvi
-a aquesta versio de AttendanceManager.
+Per fer la instal·lació del Servlet, haurem de tenir instal·lada una versió de AttendanceManager proporcionada
+prèviament i la base de dades, per a que el servlet ens reconegui la base de dades, em de fer algun petit canvi
+a aquesta versió de AttendanceManager.
 Primer haurem de cambiar al arxiu AttendanceManager.properties l'apartat "mysql_database" i "mysql_datasource"
 y posar el nom de la nostre base de dades.
 El següent arxiu es el "Context.xml" que es troba a "src/main/webapp/META-INF" haurem de modificar el "username" i
-"password" pero el nom i password que tenim a la nostre base de dades, a "name" i "url" hauriem de posar el nom
+"password" però el nom i password que tenim a la nostre base de dades, a "name" i "url" hauríem de posar el nom
 de la nostre base de dades.
 
 Per fer la instalació haurem de clonar aquest repositori, i util-litzar Eclipse IDE, un cop fet aixó
