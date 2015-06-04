@@ -20,9 +20,10 @@ coneixements adquirits durant el curs.
 
 ## Installation
 
-Per fer la instal·lació del Servlet, haurem de tenir instal·lada una versió de AttendanceManager proporcionada
-prèviament i la base de dades, per a que el servlet ens reconegui la base de dades, em de fer algun petit canvi
-a aquesta versió de AttendanceManager.
+Per fer la instal·lació del Servlet que es troba a la carpeta docs del projecte, em de tenir instal·lada una versió
+de AttendanceManager proporcionada prèviament i la base de dades, per a que el servlet ens reconegui la base
+de dades, em de fer algun petit canvi a aquesta versió de AttendanceManager i crear un nou paquet a la carpeta "src"
+del projecte on posarem la clase AMServlet.java.
 Primer haurem de cambiar al arxiu AttendanceManager.properties l'apartat "mysql_database" i "mysql_datasource"
 y posar el nom de la nostre base de dades.
 El següent arxiu es el "Context.xml" que es troba a "src/main/webapp/META-INF" haurem de modificar el "username" i
