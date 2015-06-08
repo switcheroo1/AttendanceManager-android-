@@ -34,6 +34,7 @@ import android.util.Log;
 public class UserFetchr {
   public static final String TAG = "UserFetchr";
   private static final String ACTION = "getTeacher";
+  
   protected Context context;
   
   public UserFetchr(Context context) {
@@ -42,7 +43,7 @@ public class UserFetchr {
   
   public Boolean fetchUser(String login, String password)  {
     SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(context);
-    String urlServer = SP.getString("urlServer", "");
+    String urlServer = SP.getString("urlServer","");
     String schoolName = SP.getString("schoolName", "");
     
     try {

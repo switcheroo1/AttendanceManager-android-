@@ -40,4 +40,7 @@
     <string name="classblock_contextual_header">Copy Misses</string>
     <string name="classblock_contextual_copy">Class of </string>
     
+    <string name="deployment_url">http://192.168.200.1:8080/AMServlet</string>
+    <string name="deployment_school">plantada</string>
+    
 </resources>

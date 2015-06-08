@@ -87,7 +87,7 @@ public class ClassblockListFragment extends Fragment implements MissValues{
   public View onCreateView(LayoutInflater inflater, ViewGroup parent,
       Bundle savedInstanceState) {
     View v = inflater.inflate(R.layout.fragment_classblock, parent, false);
-    
+   
     getActivity().setTitle(User.getInstance().getFullname()); 
     
     mListView = (ListView) v.findViewById(R.id.class_listView);
